@@ -7,7 +7,6 @@ export function createAngularAppRule(options: AppSchemaOptions): Rule {
   return externalSchematic('@schematics/angular', 'application', {
     name: options.name,
     directory: options.directory || '',
-    sourceDir: 'src/',
     prefix: 'app',
     style: 'scss',
     inlineStyle: false,
