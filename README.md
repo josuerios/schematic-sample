@@ -8,7 +8,7 @@ Schematic sample project that creates an Angular app based on the Angular schema
 $ git clone https://github.com/josuerios/schematic-sample.git
 $ npm install
 $ npm run build
-$ npm install -g #install this schematic globally
+$ npm install -g --no-optional # install this schematic globally
 ```
 
 ## Usage
